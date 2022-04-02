@@ -1,7 +1,6 @@
 function main() {
-    var myString = "Concatenation is the process of appending ";
-    myString += "one string to the end of another string."
 
+    var myString = "This is the first string. " + "This is the second string."
     return myString;
 }
 console.log(main());

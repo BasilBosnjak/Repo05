@@ -1,8 +1,9 @@
 function main() {
 
-    var lastName = "Doe";
-    var lastNameLength = lastName.length;
-    return lastNameLength;
+    var someAdjective = "the best!";
+    var myString = "Mistral is ";
+    myString += someAdjective;
+    return myString;
 }
 console.log(main());
 module.exports = main;

@@ -1,12 +1,14 @@
 function main() {
 
-    var myFirstString, mySecondString;
-    myFirstString = "I think therefore I \"am\" -- sentient.";
-    mySecondString = "No, you only \"think\", so you aren't."
+    var myFirstName, myLastName, myHomeTown;
+    myFirstName = "Basil";
+    myLastName = "Bosnjak";
+    myHomeTown = "Mostar";
 
     return {
-        myFirstString,
-        mySecondString
+        myFirstName,
+        myLastName,
+        myHomeTown
     };
 }
 

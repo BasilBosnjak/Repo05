@@ -1,8 +1,8 @@
 function main() {
 
-    var lastName = "Doe";
-    var firstLetterOfLastName = " ";
-    firstLetterOfLastName = lastName[0]
+    var lastName = "Doe".length;
+    var lastNameLength;
+    lastNameLength = lastName;
     return firstLetterOfLastName;
 }
 console.log(main());

@@ -1,7 +1,10 @@
 function main() {
-
-    var myString = "This is the first string. " + "This is the second string."
+    
+    var myString;
+    myString = "FirstLine\n\tSecondLine\nThirdLine";
     return myString;
+    
 }
+
 console.log(main());
 module.exports = main;
